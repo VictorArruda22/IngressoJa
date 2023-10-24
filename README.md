@@ -15,8 +15,12 @@ Fila de Espera: Implementar uma fila de espera virtual para gerenciar as solicit
 
 <h1>IMPORTANTE!!!</h1>
 </br>
-<b>Sistema de Reservas: Quando um cliente seleciona um ingresso, este pode ser reservado por um curto período de tempo (por exemplo, 5-10 minutos) para evitar que outros clientes comprem o mesmo ingresso durante o processo de checkout.</b>
+<b>Sistema de Reservas: Quando um cliente seleciona um ingresso, este pode ser reservado por um curto período de tempo (por exemplo, 5-10 minutos) para evitar que outros clientes comprem o mesmo ingresso durante o processo de checkout.</b></br>
+
+
 Rate Limiting: Implemente limites de taxa para impedir que um único cliente sobrecarregue o sistema com solicitações de compra. Isso garante que clientes com internet mais rápida não monopolizem os ingressos.
+
+
 Transações Atômicas: Garanta que as transações de compra sejam atômicas, o que significa que elas são completamente bem-sucedidas ou completamente revertidas em caso de falha.
 
 </br>
