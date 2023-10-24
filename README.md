@@ -14,12 +14,12 @@ Banco de Dados: Manter um banco de dados que acompanha os ingressos disponíveis
 Fila de Espera: Implementar uma fila de espera virtual para gerenciar as solicitações de compra. Os clientes são atendidos com base na ordem em que chegaram à fila.
 
 <h1>IMPORTANTE!!!</h1>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</br>
 <b>Sistema de Reservas: Quando um cliente seleciona um ingresso, este pode ser reservado por um curto período de tempo (por exemplo, 5-10 minutos) para evitar que outros clientes comprem o mesmo ingresso durante o processo de checkout.</b>
 Rate Limiting: Implemente limites de taxa para impedir que um único cliente sobrecarregue o sistema com solicitações de compra. Isso garante que clientes com internet mais rápida não monopolizem os ingressos.
 Transações Atômicas: Garanta que as transações de compra sejam atômicas, o que significa que elas são completamente bem-sucedidas ou completamente revertidas em caso de falha.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</br>
 
 Ferramentas de Balanceamento de Carga: Use um sistema de balanceamento de carga para distribuir as solicitações de compra entre vários servidores ou instâncias para garantir que o site permaneça responsivo, mesmo durante picos de tráfego.
 
