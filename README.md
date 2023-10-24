@@ -1,5 +1,5 @@
 # IngressoJa
-Estrutura de um site para venda de ingressos
+Estrutura de um site para venda de ingressos, o objetivo dessa arquitetura é criar um sistema de vendas de ingressos eficiente e justo para um evento de grande concorrência, como um mega show de Rock em Rio. Ela visa atender a várias necessidades e desafios, essa arquitetura tem como objetivo criar uma experiência de compra de ingressos justa e eficiente para os clientes, onde todos tenham a oportunidade de adquirir ingressos para o evento desejado. Ela combina elementos técnicos, como rate limiting, filas de espera e balanceamento de carga, com políticas e procedimentos para garantir uma operação tranquila e segura durante a venda de ingressos. Amigávelmente nomeada de <b>INGRESSOJÁ</b>
 
 <h1>Front-end do Site:</h1>
 
